@@ -5,6 +5,7 @@
 
 /* 全体共通 */
 body {
+  height: 100%;
   margin: 0;
   font-family: 'Zen Maru Gothic', sans-serif;
   font-weight: 300;
@@ -170,6 +171,7 @@ footer {
   padding: 2rem;
   font-size: 0.9rem;
   position: sticky;
+  top: 100vh;
   bottom: 0;
 }
 
