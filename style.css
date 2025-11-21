@@ -163,15 +163,19 @@ article img {
   color: #f7c8d6;
 }
 
-/* フッター */
+.wrapper{
+    min-height: 100vh;
+}
+
 footer {
-  background-color: #ec79a0/*#f7c8d6*/;
+  width: 100%;
+  background-color: #ec79a0;
   color: #ffffff;
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
-  /*position: absolute;
-  bottom: 0;*/
+  position: absolute;
+  bottom: 0;
 }
 
 /* レスポンシブ対応 */
