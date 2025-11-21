@@ -169,6 +169,8 @@ footer {
   text-align: center;
   padding: 2rem;
   font-size: 0.9rem;
+  position: sticky;
+  bottom: 0;
 }
 
 /* レスポンシブ対応 */
