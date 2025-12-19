@@ -43,16 +43,7 @@ header img{
   padding: 3.5rem;
 }
 
-/*nav {
-  display: flex;
-  gap: 1rem;
-}
-
-nav a {
-  color: #ffffff;
-  font-weight: bold;
-}*/
-
+/*ボタン*/
 .button, .button2 {
   background-color: #ec79a0;
   color: #ffffff;
@@ -61,8 +52,20 @@ nav a {
   cursor: pointer;
   transition: background-color 0.3s;
   display: inline-block;
+}
+
+.button {
   padding: 2rem 6rem;
   font-size: 1.2rem;
+}
+
+.button2 {
+  display: block;
+  margin: 0 auto;
+  width:50%;
+  padding: 17px;
+  font-size: 0.85rem;
+  text-align: center;
 }
 
 .button:hover, .button2:hover {
@@ -79,12 +82,10 @@ nav a {
   
   #gallery a {
     text-decoration: none;
-    color: #ec79a0;
+    color: #ffffff;
   }
 
   .img-item {
-    opacity: 0;
-    filter: blur(10px);
     width: 100%;
   }
   
@@ -102,6 +103,12 @@ nav a {
   .img-item :hover {
     opacity: 0.5;
   }
+
+  .oshikatsutypes img {
+    width: 50%;
+    height: auto;
+  }
+
 
 /* セクション共通 */
 section {
@@ -154,10 +161,21 @@ article img {
 }
 
 .top a {
+  background-color: #ec79a0;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
   text-decoration: none;
-  color: #fa8d94;
   text-align: center;
+  margin-top: 30px;
   margin-right: 20px;
+  width:1rem 3rem;
+  padding: 17px;
+  font-size: 0.85rem;
+  text-align: center;
 }
 
 .top a:hover{
@@ -173,6 +191,13 @@ footer {
   position: sticky;
   top: 100vh;
   bottom: 0;
+}
+
+.wrap{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100vh;
 }
 
 /* レスポンシブ対応 */
