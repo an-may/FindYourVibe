@@ -39,6 +39,7 @@ header img{
 
 .catchcopy h2{
   margin-top: 0%;
+  margin-bottom: 0%;
   text-align: center;
   padding: 3.5rem;
 }
@@ -101,7 +102,7 @@ header img{
   }
 
   .img-item :hover {
-    opacity: 0.5;
+    opacity: 0.8;
   }
 
   .oshikatsutypes img {
@@ -193,11 +194,24 @@ footer {
   bottom: 0;
 }
 
-.wrap{
+.wrap {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
   min-height: 100vh;
+}
+
+.haikei01 {
+  background-image: url(images/mainvisual.PNG);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+.haikei02{
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* レスポンシブ対応 */
